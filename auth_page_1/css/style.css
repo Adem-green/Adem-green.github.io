@@ -1,0 +1,238 @@
+.background {
+    background-color: #2E3B4B;
+    height: 1000px;
+}
+
+.container {
+    max-width: 1016px;
+    height: 701px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.header {
+    height: 116px;
+}
+
+.header__logo {
+    margin-left: 50px;
+    float: left;
+}
+
+.header__link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    float: right;
+    margin-top: 35px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.header__link:hover {
+    text-decoration: underline;
+}
+
+.header__link__margin {
+    margin-right: 68px;
+    margin-left: 37px;
+}
+
+.header__link__button {
+    margin-right: 20px;
+    float: right;
+    width: 193px;
+    height: 25px;
+    background: #DB9461;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 14px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.header__link__button:visited {
+    color: #242020;
+}
+
+.header__link__button:hover {
+    text-decoration: none;
+    color: #242020;
+}
+
+.content {
+    width: 964px;
+    height: 523px;
+    border: 11px solid white;
+    /* padding-left: 21px; */
+    padding-right: -20px;
+    margin-left: 29px;
+}
+
+.content__wrapper {
+    width: 366px;
+    margin: 56px auto 0;
+}
+
+.title {
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 29px;
+}
+
+.form {
+    width: 366px;
+    height: 110px;
+    margin: 0 auto;
+}
+
+.input {
+    width: 290px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.5);
+    padding-left: 37px;
+    outline: none;
+    margin-bottom: 6px;
+    padding-right: 37px;
+}
+
+.button__wrapper {
+    width: 366px;
+    margin: 0 auto;
+}
+
+.button {
+    width: 173px;
+    height: 50px;
+    background: #2E3B4B;
+    border: 1px solid #F2761C;
+    box-sizing: border-box;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 13px;
+    transition: all 0.2s;
+    outline: none;
+}
+
+.button__margin {
+    margin-left: 15px;
+    background-color: #F2761C;
+    color: black;
+}
+
+.button:hover {
+    background: #d25a03;
+}
+
+.button:active {
+    transform: scaleX(0.9) translateY(4px);
+}
+
+.subtitle {
+    float: left;
+    width: 140px;
+    margin-top: 40px;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 2px;
+}
+
+.button__sub {
+    float: right;
+    width: 210px;
+    margin-top: 29px;
+}
+
+.button__sub__margin {
+    margin-top: 10px;
+}
+
+/*@media (min-width: 768px) and (max-width: 1100px) {*/
+/*    .container {*/
+/*        max-width: 725px;*/
+/*    }*/
+
+/*    .content {*/
+/*        max-width: 700px;*/
+/*    }*/
+
+/*}*/
+
+@media (min-width: 320px) and (max-width: 1100px) {
+    .container {
+        max-width: 280px;
+    }
+
+    .content {
+        max-width: 280px;
+        border: none;
+        margin-left: 0;
+    }
+
+    .header__logo {
+        float: none;
+        margin: 0;
+        text-align: center;
+    }
+
+    .header__link__button {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .content__wrapper {
+        width: 280px;
+        margin-top: 70px;
+    }
+
+    .title {
+        font-size: 36px;
+    }
+
+    .input {
+        width: 204px;
+    }
+
+    .button {
+        width: 280px;
+        margin-left: 0;
+    }
+
+    .subtitle {
+        width: 251px;
+    }
+}
