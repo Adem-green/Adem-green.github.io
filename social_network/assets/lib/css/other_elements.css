@@ -1,0 +1,132 @@
+.comments {
+    width: 60px;
+    height: 23px;
+}
+
+.comments_image {
+    float: left;
+    width: 25px;
+    height: 23px;
+    background-image: url("/assets/images/comments.png");
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+}
+
+.comments_image:hover {
+    background-image: url("/assets/images/comments_hover.png");
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+}
+
+.comments_image:active {
+    background-image: url("/assets/images/comments_active.png");
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+}
+
+.like {
+    width: 60px;
+    height: 23px;
+}
+
+.like_image {
+    float: left;
+    width: 25px;
+    height: 23px;
+    background-image: url("/assets/images/like.png");
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+}
+
+.like_image:hover {
+    background-image: url("/assets/images/like_hover.png");
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+}
+
+.like_image:active {
+    background-image: url("/assets/images/like_active.png");
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+}
+
+.message {
+    width: 60px;
+    height: 23px;
+}
+
+.message_image {
+    float: left;
+    width: 25px;
+    height: 23px;
+    background-image: url("/assets/images/message.png");
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+}
+
+.message_image:hover {
+    background-image: url("/assets/images/message_hover.png");
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+}
+
+.message_image:active {
+    background-image: url("/assets/images/message_active.png");
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+}
+
+.counter {
+    width: 100px;
+    height: 20px;
+    border: 1px solid #B7B7B7;
+    box-sizing: border-box;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.prev {
+    float: left;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.next {
+    float: right;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.comment_input {
+    resize: none;
+    width: 400px;
+    height: 30px;
+    background: #FFFFFF;
+    border: 1px solid #D7D7D7;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+.paperclips {
+    background-image: url("/assets/images/comments_input_paperclip.png");
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+.camera {
+    background-image: url("/assets/images/comments_input_camera.png");
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+.smile {
+    background-image: url("/assets/images/comments_input_smile.png");
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+}

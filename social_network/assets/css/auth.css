@@ -1,0 +1,124 @@
+.wrapper {
+    min-width: 930px;
+}
+
+body {
+    background: url("/assets/images/auth_background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.auth_block_title {
+    float: left;
+    width: 432px;
+    margin-left: 15vh;
+    margin-top: 7vh;
+}
+
+.auth_form {
+    float: right;
+    width: 400px;
+    background: rgba(0, 0, 0, 0.35);
+    height: 100vh;
+}
+
+.auth_title {
+    font-family: lobster, serif;
+    font-size: 44px;
+    color: #F5F5F5;
+    margin-bottom: 50px;
+}
+
+.auth_subtitle {
+    font-family: Open Sans, serif;
+    font-weight: bold;
+    font-size: 37px;
+    line-height: 40px;
+    color: #F5F5F5;
+}
+
+.auth_form_regist {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.auth_form_title {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-family: Open Sans, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.form_element {
+    width: 230px;
+    margin: 0 auto 10px;
+}
+
+.form_element_caption {
+    font-family: Open Sans, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.form_element_button {
+    width: 170px;
+    height: 33px;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.form_element_button_reg {
+    text-align: center;
+}
+
+.form_element_text {
+    font-family: Open Sans, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+
+.form_element_button_text {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.form_element_text_license {
+    font-family: Open Sans, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+
+.license {
+    font-family: Open Sans, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 18px;
+    color: #3FC1C9;
+    text-decoration: none;
+}
+
+.license:hover {
+    text-decoration: underline;
+}
+
+.form_element_authorization_text {
+    text-align: center;
+}

@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url('/assets/lib/fonts/open_sans.ttf');
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "lobster";
+    src: url('/assets/lib/fonts/Lobster-Regular.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Open_Sans_Regular";
+    src: url('/assets/lib/fonts/OpenSansRegular.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
